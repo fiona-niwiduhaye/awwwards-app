@@ -16,8 +16,6 @@ def index(request):
 
 
 
-
-
 @login_required(login_url='/accounts/login/?next=/')
 def profile(request):
     current_user = request.user
