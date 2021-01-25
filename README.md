@@ -23,7 +23,7 @@ This project uses major technologies which are :
 
 ### Live link
 
-You can view the project through this link
+You can view the project through this link: https://fioawwards.herokuapp.com/
 
 ### Contact Information
 
