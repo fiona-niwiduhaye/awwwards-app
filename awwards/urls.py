@@ -23,7 +23,6 @@ urlpatterns = [
     url(r'', include('projects.urls')),
     url(r'^accounts/', include('registration.backends.simple.urls')),
     url(r'^logout/$', views.LogoutView.as_view(template_name='index.html'), {"next_page": '/'} ),
-    # url(r'^api-token-auth/', obtain_auth_token),
     url(r'^ratings/', include('star_ratings.urls', namespace='ratings')),
     
 ]
